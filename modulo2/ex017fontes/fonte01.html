@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in(polegada), px, pt, pc(paica)
+            16px geralmente = 1em
+
+            Medidas Relativas
+            em(relativa a altura M maíusculo), 
+            ex(altura x), rem(relativo ao rut(fonte configurada ao body)), 
+            vw(largura da vew port(tamanho de tela)), 
+            vh(altura da vew port), 
+            %
+
+            Medidaa de fonte recomendada pelo w3c: em e px
+            */
+            /*font-size: 17px;
+            font-weight: normal;
+            font-style: italic;
+            text-decoration: underline;
+            exemplo
+            */ 
+
+            /* weight(peso), width(altura), height(largura)
+            */           
+            /* lighter, normal, bold, bolder */ 
+        }
+        h1 {
+            /* Ordem para substituir por -- SHORTHAND --
+            - font-style -> font-weight -> font-size -> font-family
+
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            
+            */
+            font: italic bolder 3em, sans-serif;
+        }
+        H2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi fugit similique cumque aspernatur, quia consequuntur voluptas aliquid nisi delectus sapiente. Accusamus laboriosam quibusdam animi consequuntur et beatae quaerat velit ut?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus rerum quas, tenetur mollitia iure sit cum harum pariatur esse sint quod, debitis eligendi magnam ducimus facilis ea accusantium reiciendis consequuntur.
+    </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum atque, illo vero aliquid, labore error at sunt rem iusto architecto placeat repellat! Id corrupti ad, sunt possimus distinctio autem cum.</p>
+    <h2>Titulo 2</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aliquid, pariatur ut cum dolores error cumque earum iure maiores illo consequuntur perferendis facere quam quas velit libero reprehenderit! Voluptatum, voluptate.</p>
+</body>
+</html>
