@@ -4,19 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imagem de fundo</title>
+    <title>Fundo fixo da tela</title>
     <style>
         body {
-            height: 97vh;
+            /*height: 97vh;
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+            */
+            /*Shorthand - background 
+                color > image > position > repeat > [size não funcionou] > attachment
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -29,6 +37,9 @@
         <h1>Teste de imagem de fundo</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas error velit magnam recusandae voluptatem est ipsa, quisquam odit nam ab officia, sit natus perferendis sunt vitae voluptas voluptatum ad rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas commodi, laboriosam distinctio modi tempore asperiores, animi facere maxime sunt explicabo perferendis nam odit necessitatibus! Ut odit expedita rem ipsa ratione?
         </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel consequuntur reprehenderit ducimus velit enim voluptatem, at fugit beatae possimus amet quibusdam qui consequatur repellat omnis aut veritatis impedit sit? Dolores. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus exercitationem error dolores quaerat quis eos vitae iusto ipsam voluptate. Quas harum sint quam. Consectetur, repudiandae facere. Obcaecati, ab. Distinctio, deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste cum architecto assumenda qui odit. Delectus aperiam nulla quasi qui porro deserunt adipisci, culpa rem debitis, nobis, id corrupti veniam nesciunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur esse nihil expedita nulla beatae, praesentium minima molestias et ipsum dicta corporis distinctio asperiores hic veniam modi nostrum repellendus dignissimos eum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quisquam earum provident mollitia optio perferendis exercitationem ipsam maxime possimus sequi fugiat perspiciatis architecto, quis nesciunt neque itaque maiores, vel recusandae?
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio est autem dolor fugit nisi eaque. Iste in, ipsum corporis aliquam asperiores dolore, facilis cumque nihil nesciunt praesentium provident quod velit?</p>
     </main>
 </body>
 </html>
