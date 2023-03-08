@@ -2,7 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 *{
-    margin: 0%;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image: url('pacote-d012/imagens/background001.jpg');
+    background-position: center bottom;
+
 }
 
 header {
@@ -29,4 +35,22 @@ header > p > a {
 
 main > p {
     font-family: 'sriracha';
+    
+}
+p.verso1{
+    background-color: white;
+    font-size: 47px;  
+    height: 700px;
+}
+p.verso2 {
+    background-color: rgba(0, 0, 0, 0.233);
+    color: white;
+    font-size: 47px;  
+    width: 550px;
+    height: 700px;
+}
+p.verso3 {
+    background-color: white;
+    font-size: 47px;  
+    height: 700px;
 }
